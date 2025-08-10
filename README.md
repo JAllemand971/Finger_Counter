@@ -56,8 +56,4 @@ MediaPipe Hands returns 21 (x, y, z) landmarks and handedness (left vs. right), 
 
 > Note: You can also use angle-based rules (vector dot products between finger segments) for higher robustness, but the simple tip-vs-pip check is fast and effective for a demo.
 
----
-
-## Repository structure
-
 
