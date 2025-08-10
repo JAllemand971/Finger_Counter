@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/622fb692-150b-47f9-91b3-b7598cf5c809
 - Classifies each finger as **extended** or **folded**
 - Displays the **count** and the annotated hand overlay in real time
 
-MediaPipe Hands returns 21 (x, y, z) landmarks and handedness (left vs. right), enabling robust fingertip and joint reasoning. :contentReference[oaicite:1]{index=1}
+MediaPipe Hands returns 21 (x, y, z) landmarks and handedness (left vs. right), enabling robust fingertip and joint reasoning.
 
 ---
 
@@ -38,7 +38,7 @@ MediaPipe Hands returns 21 (x, y, z) landmarks and handedness (left vs. right), 
    MediaPipe Hands processes the `RGB` frame and returns:
    - `multi_hand_landmarks`: 21 keypoints per detected hand  
    - `multi_handedness`: label `"Left"` or `"Right"` with confidence  
-   (Both are used to normalize rules for the thumb vs. other fingers.) :contentReference[oaicite:2]{index=2}
+   (Both are used to normalize rules for the thumb vs. other fingers.)
 
 3. **Finger state rules**  
    A common, fast heuristic:
